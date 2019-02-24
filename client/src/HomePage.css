@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Pacifico;
+  src : url("https://fonts.googleapis.com/css?family=Pacifico");
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.contour{
+  border:1px outset black;
+  padding: 10px;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  /* background-color: aqua; */
+}
+
+.contour2{
+  border:1px solid black;
+  padding: 20px;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  /* background-color: aqua; */
+}
+
+.shadow{
+  box-shadow: 10px 10px;
+}
+
+.image{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  height: 100px;
+  width: 150px;
+}
+
+.padding{
+  padding: 10px;
+}
+
+header{
+border: 1px solid black;
+border-radius: 5px;
+/* background-color: aqua; */
+box-shadow: 10px 10px 5px grey;
+/* background-color: grey; */
+padding-bottom: 6%;
+padding-top: 2%;
+margin-bottom: 3%;
+margin-top: 2%;
+}
+
+.logo{
+  width: 150px;
+  height: 80px;
+  padding: 10px;
+}
+
+body{
+  margin: 10px;
+}
+
+.connexion{
+  width: 60px;
+  height: 60px;
+  margin-right: 1%;
+}
+
+.menu{
+  min-height: 100vh;
+  /* background-color: gray; */
+  padding-right: 1%;
+}
+
+.margin{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.description{
+  max-height: 16vh;
+  overflow: hidden;
+}
+
+.marginh5{
+  margin-bottom: 2%;
+  margin-top: 2%
+}
+
+center{
+  margin-top: 8%
+}
+
+.lieudate{
+  height: 35px;
+  margin-left: 4%
+}
+
+.bouton{
+  margin-top: 2%;
+}
+
+.titre, .titre:hover, .titre:visited, .titre:active{
+  color: black;
+  font-family: Pacifico;
+}
