@@ -23,7 +23,7 @@ class EventPage extends Component {
         return (
           <body class="container-fluid">
             <header>
-            <h2 class='float-left'>My_events</h2>
+            <a href="/home" class="titre"><h2 class='float-left'>My_events</h2></a>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzJy3Ue46Nh91gu0LGLgmHx0ey4R1avXmRJe18CEH9lOWxCEj4Vw" alt="connexion" class="float-right connexion"></img>
           </header>
           <div class='container-fluid'>
